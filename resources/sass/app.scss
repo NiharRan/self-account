@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+@import '~vue-multiselect/dist/vue-multiselect.min.css';
+
+@media (min-width: 992px) {
+    .modal-xl {
+        max-width: 1000px !important;
+    }
+}
+
+
+.reportrange-text[data-v-fffebcea] {
+    line-height: calc(2.3rem) !important;
+    text-align: center !important;
+}
+.vue-daterange-picker[data-v-fffebcea] {
+    min-width: 100% !important;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+}
+
+.vdpComponent { 
+    input {
+        transition: box-shadow .15s ease;
+        border: 0;
+        box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+    }
+
+    input {
+        font-size: .875rem;
+        transition: all .15s ease-in-out;
+    }
+    input {
+        font-size: 1rem;
+        line-height: 1.5;
+        display: block;
+        width: 100%;
+        height: calc(2.75rem + 2px);
+        padding: .625rem .75rem;
+        transition: all .15s cubic-bezier(.68, -.55, .265, 1.55);
+        color: #8898aa;
+        border: 1px solid #dee2e6;
+        border-radius: .25rem;
+        background-color: #fff;
+        background-clip: padding-box;
+        box-shadow: 0 3px 2px rgba(233, 236, 239, .05);
+    }
+}
